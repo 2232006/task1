@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: rgb(221, 24, 24);
+      }
+      .f2div {
+        background-color: rgb(62, 124, 169);
+      }
+      .fdiv td {
+        font-weight: bold;
+      }
+      a {
+        text-decoration: none;
+        color: aliceblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="f2div" style="width: 85px; margin-bottom: 40px">
+        personal data
+      </div>
+      <div
+        class="f2div"
+        style="
+          width: 80px;
+          height: 70px;
+          text-align: center;
+          padding-top: 50px;
+          margin-left: 7px;
+        "
+      >
+        Your name
+      </div>
+      <div
+        style="
+          background-color: rgb(222, 167, 28);
+          height: 60px;
+          padding-top: 60px;
+        "
+      >
+        <form action="">
+          <table>
+            <tr>
+              <td><label for="fname">first name :</label></td>
+              <td>
+                <input
+                  type="text"
+                  id="fname"
+                  name="first"
+                  placeholder="ex_ahmed"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="sname">second name :</label></td>
+              <td>
+                <input
+                  type="text"
+                  id="sname"
+                  name="second"
+                  placeholder="ex_bahnasy"
+                />
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+      <div class="fdiv" style="height: 60px; padding-top: 60px">
+        <form action="">
+          <table>
+            <tr>
+              <td><label for="phonee">your phone :</label></td>
+              <td><input type="tel" id="phonee" name="ph" /></td>
+            </tr>
+            <tr>
+              <td><label for="yemail">Email:</label></td>
+              <td><input type="email" id="yemail" name="yem" /></td>
+            </tr>
+            <tr>
+              <td><label for="pass">password:</label></td>
+              <td><input type="password" id="pass" name="passs" /></td>
+            </tr>
+            <tr>
+              <td><label for="rpass">re-password:</label></td>
+              <td><input type="password" id="rpass" name="rpasss" /></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+
+      <div style="padding-top: 150px">
+        <input type="radio" id="ma" name="yem" />
+        <label for="ma">Male</label>
+        <br />
+        <input type="radio" id="fm" name="yem" />
+        <label for="fm">Female</label>
+      </div>
+
+      <div style="padding-top: 90px">
+        <input type="checkbox" id="st" name="stat" />
+        <label for="st">Student</label>
+        <br />
+        <input type="checkbox" id="G" name="stat" />
+        <label for="G">Graduated</label>
+      </div>
+
+      <div style="margin-top: 30px">
+        <select name="uni" id="u" style="width: 150px">
+          <option value="Auc">Auc</option>
+          <option value="Afom">Afom</option>
+          <option value="Afci">Afci</option>
+        </select>
+        <br />
+        <button style="background-color: black; width: 80px; height: 40px">
+          <a href="index.html">Submit</a>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
